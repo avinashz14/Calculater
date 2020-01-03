@@ -1,0 +1,48 @@
+body{
+    background-color: #9922ff;
+}
+h5{
+    margin: 2;
+}
+form {
+      position: fixed;
+      padding: 4 5 5 10;
+      margin: 5 10 5 20;
+      border-color: black;
+      background-color: black;
+      border-radius: 5px; 
+      box-shadow:10px 20px 20px rgba(0,0,0,0.5);
+}
+input[type=text]{
+    border-radius: 5px;
+    border: 2px;
+    padding: 4 1;
+    margin: 2 0 3 0;
+}
+input[type=button]{
+      padding: 10 10 5 10 ;
+      position: relative;
+      margin: 2 3;
+      background-color: black;
+      color: white;
+      border: 1px solid;
+      border-radius: 5px;   
+      box-sizing: border-box;
+      resize: both;
+}
+input[type=button]:hover{
+    color:crimson;
+}
+input[type=reset]{
+       color: firebrick;
+       font-style:italic;
+       background-color: black;
+       padding: 5 26;
+       margin: 2px;
+       border-radius: 5px; 
+       border: 1px solid  white;
+    
+}
+input[name=result]{
+       padding: 5 27;
+}
